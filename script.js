@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
         verifyButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Processing...';
         verifyButton.disabled = true;
         setTimeout(() => {
-            window.location.href = 'og.php?u=/cl/js/6d49km';
+            window.location.href = 'https://areyourealhuman.com/cl/i/6d49km';
         }, 1500);
     });
     

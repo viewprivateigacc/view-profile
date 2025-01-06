@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://viewprivateigacc.github.io/view-profile/sitemap.xml
